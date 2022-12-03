@@ -1,7 +1,9 @@
+import {Navbar} from './components/Navbar'
+
 export function Application() {
   return (
     <div className="application">
-      <nav>navbar goes.</nav>
+        <Navbar />
       <section>cards go here.</section>
     </div>
   );
