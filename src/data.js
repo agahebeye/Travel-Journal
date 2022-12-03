@@ -1,3 +1,5 @@
+/* TODO: add more travel spots */
+
 export const spots = [
   {
     title: "Mount Fuji",
