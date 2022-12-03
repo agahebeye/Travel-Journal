@@ -1,4 +1,4 @@
-import globe from "../assets/globe.png";
+import globe from "../assets/icons/globe.png";
 
 export function Navbar() {
   return (
