@@ -38,6 +38,7 @@ section {
   max-width: 470px;
   column-gap: 19px;
   width: 100%;
+  padding-block: 20px;
 }
 
 .card--body {

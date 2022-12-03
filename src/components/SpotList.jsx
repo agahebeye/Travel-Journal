@@ -1,9 +1,10 @@
-import {Card} from './Card';
+import { Card } from "./Card";
+import { spots } from "../data";
 
 export function SpotList() {
-    return (
-        <section className="spot-list">
-            <Card />
-        </section>
-    )
+  const spotCards = spots.map((spot) => {
+    return <Card spot={spot} />;
+  });
+
+  return <section className="spot-list">{spotCards}</section>;
 }
